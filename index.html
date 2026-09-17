@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./css/style.css">
-  <script src="./js/functions.js"></script>
+  <script src="./js/functions.js" defer></script>
 </head>
+
 <body>
   <h1>Azure: Kysymyksiä ja vastauksia</h1>
-  <div class="questionBox" >
+  <div class="questionBox">
     <p>1. Milloin Azure on julkaistu?</p>
+    <p class="hide">2008</p>
   </div>
-  <div class="questionBox" >
+  <div class="questionBox">
     <p>2. Mikä on Azuren keskeinen tarkoitus?</p>
+    <p class="hide">Tarjota pilvialusta sovellusten ja sivustojen kehittämistä, testaamista,
+      käyttöönottoa ja hostaamista varten.</p>
   </div>
-  <div class="questionBox" >
+  <div class="questionBox">
     <p>3. Mitkä ovat tärkeitä Azuren palveluita sovelluskehittäjille?</p>
+    <p class="hide">Tärkeimmät palvelut sovelluskehittäjille ovat Azure App Service, Azure Static
+      Web Apps, Azure Functions, Azure DevOps, Azure Kubernetes Service ja Azure
+      Container Apps</p>
   </div>
-  <div class="questionBox" >
+  <div class="questionBox">
     <p>4. Kuinka paljon erilaisia resursseja ja palveluita Azure markkinapaikassa on tarjolla?</p>
+    <p class="hide">Lähemmäs 50 000.</p>
   </div>
-  <div class="questionBox" >
+  <div class="questionBox">
     <p>5. Mistä Azuren palveluiden kustannusten määrät riippuvat?</p>
+    <p class="hide">Kustannusten määrät riippuvat resurssien tyypistä ja asetuksista, ylläpidosta, tilaustyypistä,
+      resurssien käytöstä ja kustannusmallista, alueesta ja vyöhykkeestä sekä marketplace-ratkaisuista.</p>
   </div>
-  <button>Näytä vastaukset</button>
+  <div id="btnBox">
+    <button id="showAnswers">Näytä vastaukset</button>
+  </div>
 </body>
+
 </html>

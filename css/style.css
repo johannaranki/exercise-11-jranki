@@ -1,6 +1,23 @@
 /* Tyylit */
 
 .questionBox {
-  margin-bottom: 3rem;
+  border-top: 1px solid rgb(172, 172, 172);
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  font-style: italic;
+}
+
+#btnBox {
+    border-top: 1px solid rgb(172, 172, 172);
+
+}
+
+#showAnswers {
+  margin-top: 2rem;
+}
