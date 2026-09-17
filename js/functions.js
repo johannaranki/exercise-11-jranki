@@ -1,0 +1,1 @@
+/* Funktiot ja muu Javascript */
